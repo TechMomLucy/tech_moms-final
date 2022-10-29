@@ -1,0 +1,212 @@
+
+  
+  body{
+    margin-top:0px;
+    font-family: Serif;
+    border: 3px solid salmon;
+  }
+  /* Style the header */
+  header{
+    text-align: center;
+    border: 3px solid salmon;
+    word-spacing: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://cdn4.vectorstock.com/i/1000x1000/73/43/sunset-beach-background-with-sea-chairs-vector-9177343.jpg');
+  }
+  header ul{
+    padding:0; 
+  }
+  header li{
+    margin-left: 20px;
+  }
+  
+  section{
+    height: 100vh;
+    border: 3px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  /*Links at very top of website*/
+  header a{
+    text-decoration: none;
+    color:lightyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  a:hover{
+    line-height: 1.2em;
+    color:lightyellow;
+    text-shadow: 0 0 black, 0 1.2em salmon;
+    overflow: hidden;
+    transition: .3s;
+  }
+  
+  /* A.O. SPRAY TANS title */
+  header h1{
+    color: salmon;
+  }
+  
+  /* slogan */
+  header p{
+    color:salmon;
+  }
+  
+  /*Basic Tan header */
+  #hero h2{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(55, 161, 231);
+  }
+  
+  /*Text underneath "Basic Tan", "Special Offers", and "Hours"*/
+  section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: skyblue;
+    font-size: 20pt;
+  }
+  /*Picture in Basic Tan section*/
+  #hero img {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #fff;
+    background:;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 25px;
+    -webkit-box-shadow: 25px;
+    border-radius:25px;
+  }
+
+  /*Special Offers header*/
+  section h2{
+    font-size:2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(55, 161, 231);
+  }
+
+   /* Hours header */
+   section h3{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(55, 161, 231);
+  }
+
+  /*Contact info header*/
+  section h4{
+    font-size: 1.0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:lightsalmon;
+  }
+  
+  /* Contact Info section*/
+  section a{
+    color: lightsalmon;
+    font-size: 15pt
+  }
+  #contact a{
+    text-decoration: none;
+    color:lightsalmon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  a:hover{
+    line-height: 1.2em;
+    color:lightyellow;
+    text-shadow: 0 0 black, 0 1.2em salmon;
+    overflow: hidden;
+    transition: .3s;
+  }
+
+  /*Background Images*/
+  #hero{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://live.staticflickr.com/8447/7950643278_7ed58cff40_b.jpg');
+  }
+  #contact{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://play-lh.googleusercontent.com/X6S-3G1irwe649hOPWe2GYqcl4eSxK69r6Y1CGoC9oXk45MRwTTywpz0vdVoQS0_vVVX=w526-h296-rw');
+  }
+ 
+
+
+
+  /*Code from previous template - want to keep?*/
+
+
+  /* Style the top navigation bar */
+  .topnav{
+    margin: auto;
+    width:85%;
+    display:flex;
+    padding:35px 0;
+    justify-content: space-between;
+    align-items:center;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .topnav ul li a{
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase
+    
+  }
+  .topnav ul li::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    background: lightblue;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.5s;
+  }
+  .topnav ul li:hover::after{
+    width: 100%
+    
+  }
+  /* Change color on hover */
+  .topnav:hover{
+    background-color:#FFB6C1;
+    color:#CDC0B0;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .row{
+    float: center;
+    width: 33.33%;
+    padding: 15px;
+  }
+  .column{
+    float: lcenter;
+    width: 33.33%;
+    padding: 15px;
+  }
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
