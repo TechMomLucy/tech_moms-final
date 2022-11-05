@@ -83,6 +83,10 @@
     -webkit-box-shadow: 25px;
     border-radius:25px;
   }
+/* ao profile pic */
+#aoprofile{
+  width: 200px;
+}
 
   /*Special Offers header*/
   section h2{
@@ -128,10 +132,19 @@
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://live.staticflickr.com/8447/7950643278_7ed58cff40_b.jpg');
   }
   #contact{
+    padding-top: 2%;
+    display:flex;
+    flex-direction: column;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://play-lh.googleusercontent.com/X6S-3G1irwe649hOPWe2GYqcl4eSxK69r6Y1CGoC9oXk45MRwTTywpz0vdVoQS0_vVVX=w526-h296-rw');
   }
- 
-
+.contactinfo {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom:5%;
+  
+}
 
 
   /*Code from previous template - want to keep?*/
